@@ -4,7 +4,7 @@ import cv2
 import tempfile
 
 # Load your trained model (consider loading it once to save resources)
-model = YOLO('E:/BIO-ID-Streamlit/model/best.pt')
+model = YOLO('./best.pt')
 
 def process_image(image_path):
     # Run inference
