@@ -1,0 +1,11 @@
+# dataset.yaml
+path: ./  # parent directory containing train/ and val/
+train: images/train  # relative path to training images
+val: images/val  # relative path to validation images
+
+# Number of classes
+nc: 1
+
+# Class names
+names:
+  0: Colony

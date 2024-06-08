@@ -1,0 +1,17 @@
+name: AgarVision
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8  # Specify the version of Python you need
+  - numpy
+  - pandas
+  - matplotlib
+  - streamlit
+  - pytorch  # Specify Pytorch if using Conda to manage deep learning frameworks
+  - torchvision
+  #- cpuonly  # Use this if you do not have a CUDA-enabled GPU
+  - pip:
+    - flask
+    - some-other-pip-package
+
